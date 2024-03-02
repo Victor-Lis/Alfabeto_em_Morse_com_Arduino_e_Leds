@@ -8,12 +8,14 @@ void setup()
 
 void loop()
 {
+  comeco();
   v();
   i();
   c();
   t();
   o();
   r();
+  fim();
 }
 
 void ponto(){
@@ -240,4 +242,13 @@ void z(){
   ponto();
   Serial.println("z");  
   delay(2000);
+}
+
+void comeco(){
+  Serial.println("COMEÇO");
+}
+
+void fim(){
+  Serial.println("FIM");
+  delay(5000);  
 }
