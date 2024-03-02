@@ -16,6 +16,19 @@ void loop()
   o();
   r();
   fim();
+  comeco();
+  l();
+  i();
+  s();
+  fim();
+  comeco();
+  b();
+  r();
+  o();
+  n();
+  z();
+  o();
+  fim();
 }
 
 void ponto(){
