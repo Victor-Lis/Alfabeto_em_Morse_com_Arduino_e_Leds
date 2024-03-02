@@ -50,7 +50,7 @@ void z(){
 }
 ```
 
-Claro, essa melhoria de criar uma função para cada letra do alfabeto veio após o prazo de 15 minutos, mas como ainda estava pensando na atividade optei por fazer essa melhoria, sendo assim meu código ficou muito mais fácil de ser entender, já que por exemplo para escrever o meu primeiro nome bastava seguir o seguinte molde na função "loop()"
+Claro, essa melhoria de criar uma função para cada letra do alfabeto veio após o prazo de 15 minutos, mas como ainda estava pensando na atividade optei por fazer essa melhoria, sendo assim meu código ficou muito mais fácil de se entender, já que por exemplo para escrever o meu primeiro nome bastava seguir o seguinte molde na função "loop()"
 
 ### Resultado do Meu Nome
 ```c++
@@ -62,6 +62,37 @@ void loop()
   t();
   o();
   r();
+}
+```
+
+Após isso ainda fiz mais melhorias para facilitar o entendimento do código, criando 3 funções:
+
+### Começo 
+Para delimitar o começo da mensagem
+
+```c++
+void comeco(){
+  Serial.println("COMEÇO");
+}
+```
+
+### Pausa 
+Para delimitar o espaço entre palavras
+
+```c++
+void pausa(){
+  Serial.println("-PAUSA-");
+  delay(5000);  
+};
+```
+
+### Fim
+Para delimitar o fim da mensagem
+
+```c++
+void fim(){
+  Serial.println("FIM");
+  delay(1000);  
 }
 ```
 
