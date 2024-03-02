@@ -19,15 +19,17 @@ void loop()
 }
 
 void ponto(){
+  Serial.println(".");
   digitalWrite(led, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(300); // Wait for 1000 millisecond(s)
   digitalWrite(led, LOW);
   delay(300); // Wait for 1000 millisecond(s)
 }
 
 void traco(){
+  Serial.println("_");
   digitalWrite(led, HIGH);
-  delay(300); // Wait for 1000 millisecond(s)
+  delay(1000); // Wait for 1000 millisecond(s)
   digitalWrite(led, LOW);
   delay(300); // Wait for 1000 millisecond(s)
 }
