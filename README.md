@@ -96,6 +96,35 @@ void fim(){
 }
 ```
 
+Com essas melhorias o resultado final ficou assim:
+```c++
+void loop()
+{
+  comeco();
+  f();
+  e();
+  i();
+  t();
+  o();
+  pausa();
+  p();
+  o();
+  r();
+  pausa();
+  d();
+  e();
+  v();
+  pausa();
+  v();
+  i();
+  c();
+  t();
+  o();
+  r();
+  fim();
+}
+```
+
 ## Autores
 
 - [@Victor-Lis](https://github.com/Victor-Lis)
